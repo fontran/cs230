@@ -8,7 +8,7 @@ import tensorflow.contrib.slim as slim
 from skimage.restoration._denoise import _sigma_est_dwt
 
 from data_model import StockDataSet
-from model_rnn import LstmRNN, k_LstmRNN, mfm
+from model_rnn import LstmRNN, k_LstmRNN
 import warnings
 warnings.filterwarnings("ignore", category=DeprecationWarning)
 
